@@ -11,6 +11,10 @@ import emberimageMagnifierThumbnail from '../assets/images/codeworks/ember-image
 import emberRouterScrollThumbnail from '../assets/images/codeworks/ember-router-scroll.png'
 import socketYoutubePlayerThumbnail from '../assets/images/codeworks/socket-youtube-player.png'
 
+import favicon16 from '../assets/images/favicon/16x16.png'
+import favicon32 from '../assets/images/favicon/32x32.png'
+import favicon96 from '../assets/images/favicon/96x96.png'
+
 
 const OWN_CODE_WORKS = [
     { id: '1', src: 'https://gowthamrm.github.io/ember-scroll-progress/', thumbnail: emberScrollProgressThumbnail, caption: 'Ember Scroll Progress', description: `An ember addon component for displaying an amount a page is scrolled via a progress bar.`},
@@ -35,6 +39,9 @@ class HomeIndex extends React.Component {
                 <Helmet>
                         <title>{siteTitle}</title>
                         <meta name="description" content={siteDescription} />
+                        <link rel="icon" type="image/png" sizes="32x32" href={favicon32} />
+                        <link rel="icon" type="image/png" sizes="96x96" href={favicon96} />
+                        <link rel="icon" type="image/png" sizes="16x16" href={favicon16} />
                 </Helmet>
 
                 <div id="main">

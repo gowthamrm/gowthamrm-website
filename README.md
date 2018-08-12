@@ -1,13 +1,10 @@
-# gatsby-starter-strata
-Gatsby starter based on the Strata site template, designed by [HTML5 UP](https://html5up.net/strata). Check out https://codebushi.com/gatsby-starters/ for more Gatsby starters and templates.
+#gowthamrm-website
+My personal website built using the Gatsby Starter - [gatsby-starter-strata](https://github.com/ChangoMan/gatsby-starter-strata). This Gatsby starter is based on the Strata site template, which is designed by [HTML5 UP](https://html5up.net/strata).
 
 ## Preview
+https://gowthamrm.com/
 
-http://gatsby-strata.surge.sh/
 
 ## Installation
-
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new gatsby-starter-strata https://github.com/ChangoMan/gatsby-starter-strata`
 
 Run `gatsby develop` in the terminal to start.

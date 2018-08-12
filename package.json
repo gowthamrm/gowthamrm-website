@@ -14,20 +14,20 @@
     "gatsby-remark-copy-linked-files": "^1.5.30",
     "gatsby-remark-images": "^1.5.56",
     "gatsby-source-filesystem": "^1.5.27",
-    "gatsby-transformer-remark": "^1.7.37",
-    "gatsby-transformer-sharp": "^1.6.22",
     "lodash": "^4.17.4",
     "react-images": "^0.5.14"
   },
-  "homepage": "https://github.com/ChangoMan/gatsby-starter-strata",
+  "homepage": "https://github.com/gowthamrm/gowthamrm-website",
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "gowtham raj",
+    "gowthamrm"
   ],
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ChangoMan/gatsby-starter-strata.git"
+    "url": "https://github.com/gowthamrm/gowthamrm-website.git"
   },
   "scripts": {
     "dev": "gatsby develop",
