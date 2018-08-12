@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://gowthamrm.netlify.com/* https://gowthamrm.com/:splat 301!
