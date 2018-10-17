@@ -7,6 +7,7 @@ import emberScrollProgressThumbnail from '../assets/images/codeworks/ember-scrol
 import emberScrollPreviewThumbnail from '../assets/images/codeworks/ember-scroll-preview.png'
 
 import emberThumbnail from '../assets/images/codeworks/ember-min.png'
+import emberCliThumbnail from '../assets/images/codeworks/ember-cli.png'
 import emberimageMagnifierThumbnail from '../assets/images/codeworks/ember-image-magnifier.png'
 import emberRouterScrollThumbnail from '../assets/images/codeworks/ember-router-scroll.png'
 import socketYoutubePlayerThumbnail from '../assets/images/codeworks/socket-youtube-player.png'
@@ -17,15 +18,53 @@ import favicon96 from '../assets/images/favicon/96x96.png'
 
 
 const OWN_CODE_WORKS = [
-    { id: '1', src: 'https://gowthamrm.github.io/ember-scroll-progress/', thumbnail: emberScrollProgressThumbnail, caption: 'Ember Scroll Progress', description: `An ember addon component for displaying an amount a page is scrolled via a progress bar.`},
-    { id: '2', src: 'https://gowthamrm.github.io/ember-scroll-preview/', thumbnail: emberScrollPreviewThumbnail, caption: 'Ember Scroll Preview', description: 'A simple ember addon to preview the scroll progress of the page.'}
+    { 
+        id: '1',
+        src: 'https://gowthamrm.github.io/ember-scroll-progress/',
+        thumbnail: emberScrollProgressThumbnail,
+        caption: 'Ember Scroll Progress',
+        description: 'An ember addon component for displaying an amount a page is scrolled via a progress bar.'
+    }, { 
+        id: '2',
+        src: 'https://gowthamrm.github.io/ember-scroll-preview/',
+        thumbnail: emberScrollPreviewThumbnail,
+        caption: 'Ember Scroll Preview',
+        description: 'A simple ember addon to preview the scroll progress of the page.'
+    }
 ];
 
 const CONTRIBUTED_CODE_WORKS = [
-    { id: '1', src: 'https://github.com/emberjs/ember.js/pulls?q=is%3Apr+author%3Agowthamrm+is%3Aclosed', thumbnail: emberThumbnail, caption: 'EmberJS', description: `Contributed to the ember core during the Ember 3.0 related cleanup process.`},
-    { id: '2', src: 'https://github.com/selvagsz/ember-image-magnifier', thumbnail: emberimageMagnifierThumbnail, caption: 'Ember Image Magnifier', description: 'An ember addon to magnify and preiview the selected part of the given image.'},
-    { id: '3', src: 'https://github.com/bossbossk20/youtube-player-socket.io/pulls?q=is%3Apr+author%3Agowthamrm+is%3Aclosed', thumbnail: socketYoutubePlayerThumbnail, caption: 'Socket.io Youtube Player', description: 'Simple web app built using react and websocket to share music playlist with friends. Got chance to contribute to this project during Hactoberfest 2017.'},
-    { id: '4', src: 'https://github.com/dollarshaveclub/ember-router-scroll/pulls?q=is%3Apr+author%3Agowthamrm+is%3Aclosed', thumbnail: emberRouterScrollThumbnail, caption: 'Ember Router Scroll', description: 'Scroll to top with preserved browser history scroll position. Got my hands in hosting the demo app in the github pages.'}
+    { 
+        id: '1',
+        src: 'https://github.com/emberjs/ember.js/pulls?q=is%3Apr+author%3Agowthamrm+is%3Aclosed',
+        thumbnail: emberThumbnail,
+        caption: 'EmberJS',
+        description: 'Contributed to the EmberJS framework  during the v3.0 related cleanup process.'
+    }, { 
+        id: '2',
+        src: 'https://github.com/ember-cli/ember-cli/pulls?q=is%3Apr+author%3Agowthamrm',
+        thumbnail: emberCliThumbnail,
+        caption: 'Ember CLI',
+        description: 'It is the official command line utility used to create, build, serve, and test Ember.js apps and addons.'
+    }, { 
+        id: '3',
+        src: 'https://github.com/selvagsz/ember-image-magnifier',
+        thumbnail: emberimageMagnifierThumbnail,
+        caption: 'Ember Image Magnifier',
+        description: 'An ember addon to magnify and preiview the selected part of the given image.'
+    }, {
+        id: '4',
+        src: 'https://github.com/bossbossk20/youtube-player-socket.io/pulls?q=is%3Apr+author%3Agowthamrm+is%3Aclosed',
+        thumbnail: socketYoutubePlayerThumbnail,
+        caption: 'Socket.io Youtube Player',
+        description: 'Simple web app built using react and websocket to share music playlist with friends.'
+    }, {
+        id: '5',
+        src: 'https://github.com/dollarshaveclub/ember-router-scroll/pulls?q=is%3Apr+author%3Agowthamrm+is%3Aclosed',
+        thumbnail: emberRouterScrollThumbnail,
+        caption: 'Ember Router Scroll',
+        description: 'Scroll to top with preserved browser history scroll position.'
+    }
 ];
 
 class HomeIndex extends React.Component {
